@@ -18,10 +18,11 @@ img {
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 0px;
+    padding: 0;
 }
 main img {
-    max-width: 840px;
+    width: 150px;
+    height: auto;
 }
 aside {
     width: 20rem
