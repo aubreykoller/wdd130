@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=Roboto+Mono&Sans-serif=swap')
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-}
 :root {
     --primary-color: #40798C;
     --secondary-color: #70A9A1;
