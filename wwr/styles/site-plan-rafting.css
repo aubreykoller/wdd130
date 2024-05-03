@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=Roboto+Mono&Sans-serif=swap');
-body {
-    font-family: (var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-    )
 :root {
     --primary-color: #40798C;
     --secondary-color: #70A9A1;
@@ -19,8 +14,8 @@ body {
     --nav-hover-background-color: #F6F1D1;
 }
 body {
-    font-family: (var(--paragraph-font);
-    max-width: 960;
+    font-family: var(--paragraph-font);
+    max-width: 960px;
     padding: 20px;
     )
 h1, h2, h3, h4, h5, h6 {
@@ -31,7 +26,7 @@ header {
     padding: 20px;
     background-color: var(--accent1-color);
 }
-p{
+p {
     padding: 25px;
 }
 nav {
