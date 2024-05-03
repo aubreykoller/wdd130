@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=Roboto+Mono&Sans-serif=swap')
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=Roboto+Mono&Sans-serif=swap');
 body {
     font-family: (var(--paragraph-font);
-    max-width: 960;
+    max-width: 960px;
     padding: 20px;
     )
 :root {
@@ -18,6 +18,11 @@ body {
     --nav-hover-link-color: #CFD7C7;
     --nav-hover-background-color: #F6F1D1;
 }
+body {
+    font-family: (var(--paragraph-font);
+    max-width: 960;
+    padding: 20px;
+    )
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
