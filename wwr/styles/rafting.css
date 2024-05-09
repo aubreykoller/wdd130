@@ -60,14 +60,6 @@ h1 {
   font-size: 40px; 
   z-index: 1; 
 }
-aside {
-  Position: relative;
-  max-width: 300px;
-}
-aside h2 {
-  position: absolute;
-  color: black;
-}
 article {
   position: absolute;
   bottom: 250px; 
