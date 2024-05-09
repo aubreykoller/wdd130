@@ -86,5 +86,9 @@ p {
   margin-bottom: 20px; 
 }
 aside h2 {
+  font-family: var(--heading-font);
+  color: var(--secondary-color); 
+  text-decoration: none;
   position: absolute;
+  font-size: 28px;
 }
