@@ -79,10 +79,3 @@ article img {
 p {
   margin-bottom: 20px; 
 }
-h2 {
-  font-family: var(--heading-font);
-  color: var(--secondary-color); 
-  text-decoration: none;
-  position: relative;
-  font-size: 28px;
-}
