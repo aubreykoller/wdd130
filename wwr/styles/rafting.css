@@ -61,7 +61,7 @@ h1 {
   z-index: 1; 
 }
 aside h2{
-  position: relative;
+  position: absolute;
 }
 article {
   position: absolute;
