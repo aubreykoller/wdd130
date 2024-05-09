@@ -20,12 +20,6 @@ body {
   padding: 20px;
   color: var(--primary-color); 
 }
-h1, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
-  color: var(--secondary-color); 
-  text-decoration: none;
-  position: relative;
-}
 p {
   color: var(--primary-color); 
   line-height: 1.5;
@@ -85,7 +79,7 @@ article img {
 p {
   margin-bottom: 20px; 
 }
-aside h2 {
+h2 {
   font-family: var(--heading-font);
   color: var(--secondary-color); 
   text-decoration: none;
