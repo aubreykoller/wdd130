@@ -85,3 +85,6 @@ article img {
 p {
   margin-bottom: 20px; 
 }
+aside h2 {
+  position: absolute;
+}
