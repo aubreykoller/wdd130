@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=Roboto+Mono&Sans-serif=swap');
-
 :root {
     --primary-color: #040524;
     --secondary-color: #268074;
@@ -14,7 +13,6 @@
     --nav-hover-link-color: #a181dd;
     --nav-hover-background-color: #e4d2d5;
 }
-
 body {
   font-family: var(--paragraph-font);
   max-width: 800px; 
@@ -23,7 +21,6 @@ body {
   color: var(--primary-color); 
   background-color: #f4f4f4;
 }
-
 header {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -32,26 +29,21 @@ header {
   color: white;
   padding: 10px 0;
 }
-
 header h1 {
   margin: 0;
 }
-
 nav ul {
   list-style-type: none;
   padding: 0;
 }
-
 nav ul li {
   display: inline;
   margin: 0 10px;
 }
-
 nav ul li a {
   color: white;
   text-decoration: none;
 }
-
 main {
   max-width: 800px;
   margin: 20px auto;
@@ -84,39 +76,32 @@ main {
 .contact-form {
   margin-bottom: 20px;
 }
-
 .contact-details .map iframe {
   width: 100%;
   height: 300px;
   border: 0;
 }
-
 .employee-profiles .profiles {
   display: flex;
   justify-content: space-around;
 }
-
 .employee-profiles figure {
   text-align: center;
 }
-
 .employee-profiles img {
   border-radius: 50%;
   width: 170px;
   height: 150px;
   object-fit: cover;
 }
-
 .contact-form form div {
   margin-bottom: 15px;
 }
-
 .contact-form label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
 }
-
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
@@ -141,7 +126,6 @@ main {
 .contact-form button[type="submit"]:hover {
   background-color: #0c0313;
 }
-
 footer {
   background-color: #45474b;
   color: white;
@@ -150,16 +134,13 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
-
 .social-links {
   display: flex;
   justify-content: flex-end;  
 }
-
 .social-links a {
   display: block; 
 }
-
 .social-links img {
   width: 60px; 
   height: 55px; 
@@ -182,7 +163,6 @@ article img {
   max-width: 15%;
   max-height: 60%;
 }
-
 .article-head {
   font-size: xx-small;
 }
@@ -191,7 +171,6 @@ article img {
   display: flex;
   align-items: center;
 }
-
 .history h2 {
   position: absolute;
   top: 10%;
@@ -201,49 +180,93 @@ article img {
   background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a background color for better readability */
   padding: 10px;
 }
-
 .history img {
   max-width: 40%; 
   padding: 10px;
 }
-
 .history .content {
   flex-grow: 1; /* Allow the content to grow and fill the available space */
   padding: 20px; /* Optional: Add padding around the content */
 }
-
 .adventures {
   display: grid;
   grid-template-rows: auto 1fr; 
   justify-content: center; 
   text-align: center; 
 }
-
 .adventures-heading {
   margin-top: 10px; 
   justify-self: center;
 }
-
 .adventures-images {
   display: flex; 
   justify-content: flex-start; 
   padding: 0px;
 }
-
 .adventures-images figure {
   margin: 2px;
 }
-
 .adventures-images img {
   max-width: 150px;
   height: 150px;
 }
-
 p {
   line-height: 1.5;
 }
-
-
-
-
-
+.call-to-action {
+  background-color: var(--accent1-color);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.call-to-action a {
+  color: var(--primary-color);
+  text-decoration: underline;
+  font-weight: bold;
+}
+.trip-descriptions {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.trip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+.trip img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+.trip-info {
+  padding: 10px;
+}
+.trip-info h3 {
+  margin-top: 0;
+}
+.trip-table {
+  margin-top: 20px;
+}
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.trip-table th, .trip-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+.trip-table th {
+  background-color: var(--accent2-color);
+}
+.trip-table tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
