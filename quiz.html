@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML & CSS Quiz</title>
+    <meta name="description" content="HTMl & CSS Quiz">
+    <meta name="author" content="Aubrey Koller">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <h1>HTML and CSS Quiz</h1>
+  <form action="/submit-quiz" method="post">
+    <div>
+      <label for="q1">1. What does HTML stand for?</label>
+      <input type="text" id="q1" name="q1">
+    </div>
+    <div>
+      <label for="q2">2. Explain the difference between HTML and CSS.</label>
+      <textarea id="q2" name="q2" rows="4" cols="50"></textarea>
+    </div>
+    <div>
+      <label for="q3">3. Which HTML tag is used to define an internal style sheet?</label>
+      <select id="q3" name="q3">
+        <option value="" selected disabled>Choose One ...</option>
+        <option value="1">&lt;style&gt;</option>
+        <option value="2">&lt;script&gt;</option>
+        <option value="3">&lt;css&gt;</option>
+      </select>
+    </div>
+    <div>
+      <label for="q4">4. How many heading levels are available in HTML?</label>
+      <input type="number" id="q4" name="q4" min="1" max="6">
+    </div>
+    <div>
+      <button type="submit">Submit Quiz</button>
+    </div>
+  </form>
+<footer>
+    <p>©️2024 | HTML Form - User Poll Activity | Aubrey Koller</p>
+</footer>
+</body>
+</html>
