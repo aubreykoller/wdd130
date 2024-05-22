@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=Roboto+Mono&Sans-serif=swap');
+
 :root {
     --primary-color: #040524;
     --secondary-color: #268074;
@@ -13,16 +14,155 @@
     --nav-hover-link-color: #a181dd;
     --nav-hover-background-color: #e4d2d5;
 }
+
 body {
   font-family: var(--paragraph-font);
   max-width: 800px; 
   margin: 0 auto;
   padding: 20px;
   color: var(--primary-color); 
+  background-color: #f4f4f4;
 }
-p {
-  line-height: 1.5;
+
+header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
 }
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.hero {
+    position: relative;
+  }
+  .hero img {
+    display: flex;
+    justify-content: center;
+    width: 775px;
+    height: 350px; 
+    margin: 10px;
+  }
+  h1 {
+    position: absolute;
+    top: 0px; 
+    left: 250px;
+    color: white;
+    font-size: 40px; 
+    z-index: 1; 
+  }
+  article {
+    position: absolute;
+    bottom: 130px; 
+    top: 80px;
+    left: 20px; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 5px;
+    max-width: 745px; 
+    overflow: hidden;
+    z-index: 1;
+    padding: 1px;
+  }
+  article img {
+    float: right;
+    margin-left: 0px;
+    max-width: 15%;
+    max-height: 60%;
+  }
+  .article-head {
+    font-size:xx-small
+  }
+.contact-details,
+.employee-profiles,
+.contact-form {
+  margin-bottom: 20px;
+}
+
+.contact-details .map iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+}
+
+.employee-profiles .profiles {
+  display: flex;
+  justify-content: space-around;
+}
+
+.employee-profiles figure {
+  text-align: center;
+}
+
+.employee-profiles img {
+  border-radius: 50%;
+  width: 170px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.contact-form form div {
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.contact-form button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4c7faf;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.contact-form button[type="submit"]:hover {
+  background-color: #0c0313;
+}
+
 footer {
   background-color: #45474b;
   color: white;
@@ -31,35 +171,21 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
+
 .social-links {
   display: flex;
   justify-content: flex-end;  
 }
+
 .social-links a {
   display: block; 
 }
+
 .social-links img {
   width: 60px; 
   height: 55px; 
 }
-.hero {
-  position: relative;
-}
-.hero img {
-  display: flex;
-  justify-content: center;
-  width: 775px;
-  height: 350px; 
-  margin: 10px;
-}
-h1 {
-  position: absolute;
-  top: 0px; 
-  left: 250px;
-  color: white;
-  font-size: 40px; 
-  z-index: 1; 
-}
+
 article {
   position: absolute;
   bottom: 130px; 
@@ -72,27 +198,24 @@ article {
   z-index: 1;
   padding: 1px;
 }
+
 article img {
   float: right;
   margin-left: 0px;
   max-width: 15%;
   max-height: 60%;
 }
+
 .article-head {
-  font-size:xx-small
-}
-header {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
+  font-size: xx-small;
 }
 
 .history {
   position: relative;
   display: flex;
   align-items: center;
-  
 }
+
 .history h2 {
   position: absolute;
   top: 10%;
@@ -102,10 +225,12 @@ header {
   background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a background color for better readability */
   padding: 10px;
 }
+
 .history img {
   max-width: 40%; 
   padding: 10px;
 }
+
 .history .content {
   flex-grow: 1; /* Allow the content to grow and fill the available space */
   padding: 20px; /* Optional: Add padding around the content */
@@ -116,23 +241,33 @@ header {
   grid-template-rows: auto 1fr; 
   justify-content: center; 
   text-align: center; 
-
 }
+
 .adventures-heading {
   margin-top: 10px; 
   justify-self: center;
 }
+
 .adventures-images {
   display: flex; 
   justify-content: flex-start; 
   padding: 0px;
 }
+
 .adventures-images figure {
   margin: 2px;
 }
-.adventures-images img {
-  max-width: 170px;
-  height: 150px;
 
+.adventures-images img {
+  max-width: 150px;
+  height: 150px;
 }
+
+p {
+  line-height: 1.5;
+}
+
+
+
+
 
