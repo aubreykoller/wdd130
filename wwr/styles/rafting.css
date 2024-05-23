@@ -270,22 +270,22 @@ p {
 .trip-table tbody tr:nth-child(odd) {
   background-color: #f2f2f2;
 }
-.site-purpose .grid-container {
+.grid-container {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.site-purpose .grid-item {
+.grid-item {
   display: flex;
   align-items: center;
 }
-.site-purpose .grid-item img {
+.grid-item img {
   max-width: 300px;
   height: auto;
   margin-right: 20px;
   border-radius: 5px;
 }
-.site-purpose .grid-item p {
+.grid-item p {
   flex: 1;
   line-height: 1.5;
 }
